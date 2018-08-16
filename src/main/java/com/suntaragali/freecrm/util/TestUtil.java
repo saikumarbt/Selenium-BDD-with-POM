@@ -81,7 +81,7 @@ public class TestUtil extends TestBase{
 		FileOutputStream file = null;
 		String currentDir = System.getProperty("user.dir");
 		try {
-			file = FileUtils.openOutputStream(new File(currentDir+"\\targets\\console-output\\"+"ConsoleLog-"+ dateTimeGenerator()+".txt"));
+			file = FileUtils.openOutputStream(new File(currentDir+"\\target\\console-output\\"+"ConsoleLog-"+ dateTimeGenerator()+".txt"));
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
